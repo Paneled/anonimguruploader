@@ -24,7 +24,7 @@
             fetch("https://api.imgur.com/3/image/", {
                 method: "post",
                 headers: {
-                    Authorization: "Client-ID YOUR_CLIENT_ID"
+                    Authorization: "Client-ID "
                 },
                 body: formdata
             }).then(data => data.json()).then(data => {
